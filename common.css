@@ -1,122 +1,231 @@
 /* GENERAL STYLES */
 div#wrapper {
-  max-width: 1280px;
-  margin: 0 auto;
+    max-width: 1280px;
+    margin: 0 auto;
 }
+
 body {
-  color: #242931;
-  background-color: #f8f7f5;
+    color: #242931;
+    background-color: #f8f7f5;
 }
+
 /* TYPE STYLES */
 header nav {
-  font-family: raleway, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 24px;
-  color: #f8f7f5;
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: #f8f7f5;
 }
+
 header p#stat {
-  font-family: raleway, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 36px;
-  color: #f8f7f5;
-  line-height: 40pt;
-  margin-top: 300px;
+    font-family: raleway, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 36px;
+    color: #f8f7f5;
+    line-height: 40pt;
+    margin-top: 300px;
 }
+
 header p#cta {
-  font-family: raleway, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 36px;
-  color: #f8f7f5;
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    color: #f8f7f5;
 }
+
 h2 {
-  font-family: raleway, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  color: #1c3045;
-  letter-spacing: 2px;
-  font-size: 36px;
-  text-align: center;
+    font-family: raleway, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #1c3045;
+    letter-spacing: 2px;
+    font-size: 36px;
+    text-align: center;
 }
+
 p {
-  font-family: raleway, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #1c3045;
-  font-size: 24px;
-  line-height: 32px;
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1c3045;
+    font-size: 24px;
+    line-height: 32px;
 }
+
 div#cards article h3 {
-  font-family: raleway, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 60px;
-  color: #f8f7f5;
-  margin-bottom: 10px;
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: #f8f7f5;
+    margin-bottom: 10px;
 }
+
 div#cards article p {
-  font-family: raleway, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 24px;
-  color: #f8f7f5;
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: #f8f7f5;
 }
+
 section#involved h4 {
-  font-family: raleway, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 36px;
-  color: #242931;
-  margin-top: -5px;
-}
-footer li, div#newsletter p, div#sm p {
     font-family: raleway, sans-serif;
-font-weight: 600;
-font-style: normal;
-color:#f8f7f5;
-font-size: 21px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    color: #242931;
+    margin-top: -5px;
 }
-div#newsletter div#form input::placeholder{
+
+section#contact h1 {
     font-family: raleway, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  color: #ADB6B8;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    color: #1c3045;
+    letter-spacing: 2px;
 }
-div#newsletter input.submit-button{
+
+section#contact p {
     font-family: raleway, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  color: #f8f7f5;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: #242831;
+    letter-spacing: 2px;
+    margin-top: -10px;
 }
-footer div.footer-info p{
-    color:#f8f7f5;
+
+div#info {
+    text-align: left;
+}
+
+div#forms input::placeholder {
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #ADB6B8;
+}
+
+div#forms div#message textarea::placeholder {
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #ADB6B8;
+}
+
+div#cancel input.cancel-button {
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #242931;
+    background: transparent;
+    border: 1px solid #AFB6B8;
+    text-align: center;
+}
+
+div#submit input.submit-button {
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #F8F7F5;
+    background-color: #1C3045;
+    text-align: center;
+}
+
+div#forms input {
+    background: transparent;
+    border: 1px solid #252930;
+}
+
+div#forms textarea {
+    background: transparent;
+    border: 1px solid #252930;
+}
+
+section#contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+div#info {
+    width: 30%;
+}
+
+div#forms {
+    width: 60%;
+}
+
+div#forms div#row1 {
+    width: 45%;
+    display: flex;
+    justify-content:space-between;
+    background-color: red;
+}
+
+footer li,
+div#newsletter p,
+div#sm p {
+    font-family: raleway, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #f8f7f5;
+    font-size: 21px;
+}
+
+div#newsletter div#form input::placeholder {
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #ADB6B8;
+}
+
+div#newsletter input.submit-button {
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #f8f7f5;
+}
+
+footer div.footer-info p {
+    color: #f8f7f5;
     font-size: 18px;
     margin-bottom: -15px;
 }
+
 /* HEADER STYLES */
-header {
+header#contact-header {
     justify-content: space-between;
-    background-image: url("splash.png");
-    background-position: top center;
+    background-image: url("contact-hero.png");
+    background-position: 50% 61%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     max-width: 100%;
-  }
-header nav{
+}
+
+header nav {
     display: flex;
     background-color: #1c3045;
     width: 100%;
 }
+
 nav#header-nav ol li a {
     text-decoration: none;
-    color:#f8f7f5;
-  }
-  nav#header-nav ol {
+    color: #f8f7f5;
+}
+
+nav#header-nav ol {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -124,110 +233,147 @@ nav#header-nav ol li a {
     position: absolute;
     right: 200px;
     margin: 55px 0;
-  }
-header img{
+}
+
+header img {
     width: 250px;
     margin: 15px 100px;
 }
+
 header p {
     width: 490px;
     margin-left: 100px;
 }
+
 /* SECTION STYLES */
-section{
+section {
     padding: 0 100px;
     margin-top: 75px;
 }
-section div#cards{
+
+section div#cards {
     display: flex;
     justify-content: space-between;
 }
-section div article{
+
+section div article {
     background-color: #1c3045;
     width: 250px;
 }
-section article p, h3 {
+
+section article p,
+h3 {
     margin: 0 auto;
     text-align: center;
 }
+
 div#cards article img {
     width: 100px;
 }
-article{
-    padding:40px;
+
+article {
+    padding: 40px;
 }
-div#cards article#projects img{
-    margin-left:50px;
+
+div#cards article#projects img {
+    margin-left: 50px;
 }
-section#involved h4{
+
+section#involved h4 {
     text-align: center;
 }
-section#involved{
-    margin-bottom: 75px;;
+
+section#involved {
+    margin-bottom: 75px;
+    ;
 }
+
+section#contact {
+    margin-bottom: 60px;
+}
+
 /* FOOTER STYLES */
-footer{
+footer {
     background-color: #1c3045;
     padding: 50px 100px;
 }
-footer nav ol{
+
+footer nav ol {
     list-style: none;
     margin-left: -40px;
 }
-footer nav ol li{
+
+footer nav ol li {
     margin-bottom: 10px;
 }
+
 footer nav ol li a {
-    color:#f8f7f5;
+    color: #f8f7f5;
     text-decoration: none;
 }
-div#row-01 nav#home-links, nav#footer-nav, div#newsletter{
+
+div#row-01 nav#home-links,
+nav#footer-nav,
+div#newsletter {
     width: 348px;
 }
+
 div#row-01 {
     display: flex;
     justify-content: space-between;
 }
-div#newsletter div#form input{
+
+div#newsletter div#form input {
     background-color: #f8f7f5;
     border: none;
     width: 324px;
-    padding:12px;
+    padding: 12px;
 }
-div#newsletter p{
+
+div#newsletter p {
     margin-top: 11px;
 }
-div#newsletter div#form{
+
+div#newsletter div#form {
     margin-top: -30px;
 }
-div#newsletter input.submit-button{
+
+div#newsletter input.submit-button {
     background: transparent;
     width: 100%;
     border: 1px solid #f8f7f5;
     text-align: center;
     padding: 12px;
-    margin-top: 20px;;
+    margin-top: 20px;
+    ;
     width: 348px;
 }
-footer h1 img{
+
+footer h1 img {
     width: 250px;
 }
+
 div#row-02 {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 }
-div#row-02 div.footer-info, div#sm{
+
+div#row-02 div.footer-info,
+div#sm {
     width: 32%;
 }
-footer div#sm-icons{
+
+footer div#sm-icons {
     display: flex;
     justify-content: space-between;
 }
-footer div#sm img{
+
+footer div#sm img {
     width: 50px;
     margin-top: -30px;
 }
-div#sm{
+
+div#sm {
     margin-top: 35px;
 }
