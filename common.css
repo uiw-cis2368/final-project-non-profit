@@ -165,10 +165,23 @@ div#forms {
 }
 
 div#forms div#row1 {
-    width: 45%;
     display: flex;
     justify-content:space-between;
-    background-color: red;
+    /* background-color: red; */
+}
+
+div#row1 input{
+    width: 300px;
+    padding: 12px;
+}
+
+div#row1 div#first-name, div#row1 div#email{
+    margin-right: 17px;
+}
+div#message textarea{
+    width: 664px;
+    padding: 12px;
+    height: 190px;
 }
 
 footer li,
