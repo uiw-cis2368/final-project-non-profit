@@ -165,6 +165,7 @@ div#forms {
 }
 
 div#forms div#row1 {
+    margin-top: -25px;
     display: flex;
     justify-content:space-between;
     /* background-color: red; */
@@ -176,14 +177,26 @@ div#row1 input{
 }
 
 div#row1 div#first-name, div#row1 div#email{
-    margin-right: 17px;
+    margin-right: 16px;
 }
 div#message textarea{
-    width: 664px;
+    width: 642px;
     padding: 12px;
-    height: 190px;
+    height: 140px;
+    margin-top: 15px;
 }
-
+div#forms div#row2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+div#cancel input, div#submit input{
+    width: 324px;
+    padding: 12px;
+}
+div#row2 div#cancel, div#row2 div#submit{
+    margin-right: 16px;
+}
 footer li,
 div#newsletter p,
 div#sm p {
