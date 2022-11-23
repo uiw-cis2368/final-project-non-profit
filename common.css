@@ -100,7 +100,7 @@ footer div.footer-info p{
 /* HEADER STYLES */
 header {
     justify-content: space-between;
-    background-image: url("splash.png");
+    background-image: url("donate-hero.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
