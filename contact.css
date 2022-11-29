@@ -230,12 +230,10 @@ footer div.footer-info p {
 }
 
 /* HEADER STYLES */
-header {
+header#contact-header {
     justify-content: space-between;
     background-image: url("contact-hero.png");
     background-position: 50% 61%;
-    background-image: url("donate-hero.png");
-    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
