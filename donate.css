@@ -39,6 +39,13 @@ div#wrapper {
     font-size: 36px;
     text-align: center;
   }
+  h4{
+    font-family: raleway, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #1c3045;
+    font-size: 24px;
+  }
   p {
     font-family: raleway, sans-serif;
     font-weight: 400;
@@ -232,3 +239,48 @@ div#wrapper {
   div#sm{
       margin-top: 35px;
   }
+
+/* CONTENT STYLES */
+section#donate{
+    margin: 20px 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+section#donate div#description{
+    width: 60%;
+}
+section#donate div#form{
+    margin-top: 75px;
+    width: 30%;
+}
+section#donate div#form input{
+    background-color: #f8f7f5;
+    border: 1px solid #252930;
+    width: 324px;
+    padding:12px;
+}
+section#donate div#form input::placeholder{
+    font-family: raleway, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: #ADB6B8;
+}
+section#donate div#form input.submit-button{
+    font-family: raleway, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  background-color: #203043;
+}
+section#donate div#pay input.submit-button{
+    font-family: raleway, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: #F8F7F5;
+  width: 350px;
+}
+section#donate div#pay{
+    margin-top: 20px;
+}
